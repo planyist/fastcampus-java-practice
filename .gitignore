@@ -20,6 +20,9 @@
 *.tar.gz
 *.rar
 
+# Text files
+*.txt
+
 ### Gradle template
 .gradle
 **/build/
