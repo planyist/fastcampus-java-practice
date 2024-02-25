@@ -4,6 +4,7 @@ public class MemberDTO {
     public String name;
     public String phone;
     private int age;
+    String sex;
 
     private void play() {
         System.out.println("운동을 한다.");

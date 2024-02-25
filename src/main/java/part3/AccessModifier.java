@@ -11,5 +11,7 @@ public class AccessModifier {
         System.out.println(dto.name + "\t" + /* dto.age */ dto.phone);
         // dto.play();
         dto.eat();
+
+        // dto.sex = "M"
     }
 }
