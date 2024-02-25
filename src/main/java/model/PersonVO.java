@@ -37,4 +37,9 @@ public class PersonVO {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    @Override
+    public String toString() {
+        return this.getName() + "\t" + this.getAge() + "\t" + this.getPhone();
+    }
 }
