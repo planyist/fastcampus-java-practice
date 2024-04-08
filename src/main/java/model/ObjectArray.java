@@ -8,7 +8,11 @@ public class ObjectArray {
     private int size = 0;
 
     public ObjectArray() {
-        this.elements = new Object[DEFAULT_CAPACITY];
+        this(2);
+    }
+
+    public ObjectArray(int capacity) {
+        this.elements = new Object[capacity];
     }
 
     public void add(Object book) {
